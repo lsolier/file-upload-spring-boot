@@ -1,2 +1,10 @@
+spring:
+  http:
+    multipart:
+      #Config para archivos pesados
+      maxFileSize: 500MB
+      #Config para varios archivos
+      maxRequestSize: 500MB
+
 server:
   port: 9002
